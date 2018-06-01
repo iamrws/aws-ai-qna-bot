@@ -3,7 +3,7 @@
 > Build a chat bot to answer questions. 
 
 ## Project
-An extention of QNA bot was used for my Learning Systems Chatbot for Georgia Tech.
+An extention of Amazon's QNA bot was used for my Learning Systems Chatbot for Georgia Tech.
 Paper as part of this Repo.  Video is on my YouTube Channel.  (https://youtu.be/GDhs8283wEE)
 
 ## Prerequisites
