@@ -1,4 +1,4 @@
-# A Question and Answer Bot Using Amazon Lex and Amazon Alexa
+# A Learning System Customer Service Chatbot Using Amazon Lex and Amazon Alexa
 
 > Build a chat bot to answer questions. 
 
