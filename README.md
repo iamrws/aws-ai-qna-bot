@@ -2,13 +2,10 @@
 
 > Build a chat bot to answer questions. 
 
-## Overview
-This repository contains code for the QnABot, described in the AWS AI blog post [“Creating a Question and Answer Bot with Amazon Lex and Amazon Alexa”](https://aws.amazon.com/blogs/ai/creating-a-question-and-answer-bot-with-amazon-lex-and-amazon-alexa/).
-
-See the "Getting Started" to launch your own QnABot,
+((https://youtu.be/GDhs8283wEE))
 
 ## Project
-An extention of this bot was used for my Learning Systems Chatbot for Georgia Tech.
+An extention of QNA bot was used for my Learning Systems Chatbot for Georgia Tech.
 Paper as part of this Repo.  Video is on my YouTube Channel.  
 
 ## Prerequisites
