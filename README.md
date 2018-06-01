@@ -4,7 +4,7 @@
 
 ## Project
 An extention of QNA bot was used for my Learning Systems Chatbot for Georgia Tech.
-Paper as part of this Repo.  Video is on my YouTube Channel.  ((((https://youtu.be/GDhs8283wEE))
+Paper as part of this Repo.  Video is on my YouTube Channel.  (https://youtu.be/GDhs8283wEE)
 
 ## Prerequisites
 
