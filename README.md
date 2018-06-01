@@ -7,6 +7,10 @@ This repository contains code for the QnABot, described in the AWS AI blog post 
 
 See the "Getting Started" to launch your own QnABot,
 
+## Project
+An extention of this bot was used for my Learning Systems Chatbot for Georgia Tech.
+Paper as part of this Repo.  Video is on my YouTube Channel.  
+
 ## Prerequisites
 
 - Run Linux. (tested on Amazon Linux)
