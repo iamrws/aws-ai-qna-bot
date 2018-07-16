@@ -1,0 +1,129 @@
+/**
+    Alexa.txt.json
+    Purpose: JSON configuration file for Alexa
+
+    @author Robert Schmidt
+    @version 1.0 4/13/2018
+*/
+
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "yellow circle net bot",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "cancel"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "help"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "stop"
+                    ]
+                },
+                {
+                    "name": "Qna_intent",
+                    "slots": [
+                        {
+                            "name": "QnA_slot",
+                            "type": "EXAMPLE_QUESTIONS"
+                        }
+                    ],
+                    "samples": [
+                        "{QnA_slot}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "EXAMPLE_QUESTIONS",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "what is your mission"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Hello"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "how do i get started with yellow circle"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "who is your mascot"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "what is your address"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "what is your phone number"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "what is your history"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "can i use for reasons other than learning or discovering technology"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "how do i upgrade my subscription"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "what can i do"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "how do i update the user dashboard passowrd"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "how do i signup for a student or teacher account"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cancel"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "stop"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "help"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

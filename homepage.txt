@@ -1,0 +1,21 @@
+/**
+    homepage.txt
+    Purpose: homepage for the SDK based text chat
+
+    @author Robert Schmidt
+    @version 1.0 4/13/2018
+*/
+
+
+<div class="av-special-heading av-special-heading-h1  blockquote modern-quote modern-centered  avia-builder-el-1  el_before_av_heading  avia-builder-el-first   av-inherit-size ">
+<h1 class="av-special-heading-tag " style="text-align: center;">FREE CLOUD COMPUTER LAB</h1>
+</div>
+<div class="av-special-heading av-special-heading-h3  blockquote classic-quote  avia-builder-el-2  el_after_av_heading  el_before_av_hr   av-inherit-size ">
+<h3 class="av-special-heading-tag " style="text-align: center;">On-demand operating systems and applications to learn or teach technology</h3>
+</div>
+&nbsp;
+
+/** Amazon.com is the source of client.html through the Question and Answer Chatbot. Credit: Calhun J. & Hunt JD, Amazon Question and Answer Bot Sample Code, https://github.com/aws-samples/aws-ai-qna-bot
+**/
+
+[iframe src="https://d4pj9skcwjuef.cloudfront.net/client.html" width="100%" height =400 ]

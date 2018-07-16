@@ -1,0 +1,497 @@
+/**
+    File: qna (1).json    
+    Purpose: qna is the questions and answers for the entire learning system database including questions not used for testing purposes.   
+
+    @author Robert Schmidt
+    @version 1.0 4/13/2018
+*/
+
+
+{
+   "qna": [
+      {
+         "qid": "19",
+         "q": [
+            "HOW DO I CREATE A VIRTUAL FIREWALL"
+         ],
+         "a": "Login to your cloud dashboard with userid / password provided in an email.\n\n(IMPORTANT: Dashboard uses features from HTML5, please use browser that fully supports HTML5. Some examples are Firefox, Google Chrome, Opera).\n–\ndashboard_login\n–\n\nIn dashboard, expand “Network” from left navigation menu.\n–\ndashboard_panel_network\n–\nSelect “Firewalls” section. (IMPORTANT: Once a firewall is successfully created, the default is to drop all traffic unless specified in “Firewall Rules”).\n–\nfirewalls_create_firewall\n–\nGo to “Firewall Rules” tab.\n–\nfirewalls_tab_rules\n–\nClick “+ Add Rule” button to create your first rule, or additional rules.\n–\nfirewalls_tab_rules_add_rule\n–\nName, recommended format is “flowtype-network-action-ports” (Example: ingress-dmz-allow-80, this name defines in-bound traffic to DMZ network that is allowed over port 80).\nDescription can be helpful to understand rules.\nProtocol\nAction\nSource IP Address/Subnet\nDestination IP Address/Subnet\nSource Port/Port Range\nDestination Port/Port Range\nClick “Add”\n–\nfirewalls_tab_rules_list\n–\nGo to “Firewall Policies” tab.\n–\nfirewalls_tab_policies\n–\nClick “+ Add Policy” button to create your firewall policy.\nName for the policy.\nDescription.\n–\nfirewalls_tab_policies_add_policy\n–\nClick on Rules tab to add / remove rules from policy.\n–\nfirewalls_tab_policies_add_rules\n–\nClick “Add”\n–\nfirewalls_tab_policies_list\n–\nNow that you have successfully created some rules and a policy, it is time to create the firewall. Go to “Firewalls” tab and click “Create Firewall”\nName : Something that you can remember.\nDescription : Provide a description for your own reference\nPolicy, select a policy created in step 3.\nClick “Add”\n–\nfirewalls_tab_firewall_add_firewall\n–\nFirewall Status will change from “PENDING_CREATE” to “ACTIVE” in few seconds. You have successfully created a firewall.\n–\nfirewalls_tab_firwall_list\n–\nCongratulations, now your virtual data-center has a firewall to control security.",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "24",
+         "q": [
+            "WHAT IS A COMPUTER LAB"
+         ],
+         "a": "\t\nYellow Circle provides avirtual information technology platform allowing students to learn about the unique capabilities of cloud computing and cloud infrastructure. We work directly with information technology educators, parents, & individuals, as early as middle school, to provide students and educators with an internet based learning platform where everyone from anywhere around the world can acquire relevant experience creating real world data centers to develop, acquire, and apply practical IT skills.\n\nYellow Circle’s ultimate mission is to provide a platform for building the foundation for our future IT workforce to produce sustainable, equitable IT solutions to a variety of global technology challenges.",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "29",
+         "q": [
+            "DO YOU ACCEPT DONATIONS"
+         ],
+         "a": "Yellow Circle is a 501(c)(3) non-profit organization, which means that we are not doing this to make money, we are here to help teachers, students, and individuals learn new technologies, for free. Your donations and sponsorship help us keep going.",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "26",
+         "q": [
+            "WHAT IS YELLOW CIRCLES MISSION"
+         ],
+         "a": "Our mission is to advance information technology education through high-quality, easy-to-use virtual computer lab for teachers and students",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "22",
+         "q": [
+            "HOW DO I SIGNUP FOR A TEACHER OR STUDENT ACCOUNT"
+         ],
+         "a": "Signing up for a Yellow Circle account is simply filling out a form located here.\n\nFor Students,\nSelect your subscription level\nFirst Name\nLast Name\nEmail Address\nClick “Sign up”\nYou should receive an email with your credentials within few minutes\nFor Teachers,\nSelect subscription based on number of students,\nFirst Name,\nLast Name,\nEmail Address\nClick “Sign up”\nMake the payment for your subscription\nYou should receive an email with credentials to your account, and your student accounts within few minutes.\nSo, what are you waiting for now, Sign-up for your FREE account",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "14",
+         "q": [
+            "HOW DO I UPDATE THE DASHBOARD USER PASSWORD"
+         ],
+         "a": "Login to your cloud dashboard with userid / password provided in an email.\n\n(IMPORTANT: Dashboard uses features from HTML5, please use browser that fully supports HTML5. Some examples are Firefox, Google Chrome, Opera).\n–\ndashboard_login\n–\n\nIn dashboard, click on down arrow next to your “username” in top right corner and click “Settings“.\n–\ndashboard_user_settings_link\n–\nUnder “User Settings” page, you can update your “Language“, “Timezone“, and “Items per page“.\n–\ndashboard_settings_user_settings\n–\nClick on “User Password” in left page to make changes to your dashboard password.\n–\ndashboard_settings_change_password\n–\nProvide your current password\nThen your new password twice\nClick “Update” to save your password.\nYour dashboard password is now updated. Please make a note of it so you have it for future logins.",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "25",
+         "q": [
+            "WHAT IS A CLASSROOM WITHOUT BOUNDRIES"
+         ],
+         "a": "\t\nJoin the classroom of today, where there are no boundaries. There is no defined school, organization, or criteria to enroll. You just have to be ready to learn, build, deploy, and be innovative. Every student in Yellow Circle can learn at their own pace, every single day, or once a week, or once a month.\n\nThere are no deadlines, there is no homework due, there are no due dates. Join our growing community of learners.",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "40",
+         "q": [
+            "WHO IS YOUR PLATINUM SPONSOR"
+         ],
+         "a": "Google is helping Yellow Circle in many different ways including Google Apps for nonprofits, and Google Ad Grants. Thanks to support from Google Ad Grants, we are able to reach more students around the world. Over the last two years, Google has provided over $200k in Adwords credits to Yellow Circle.",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "41",
+         "q": [
+            "stop"
+         ],
+         "a": "goodbye",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "BotStyle.001",
+         "q": [
+            "Hello"
+         ],
+         "a": "Greetings friendly human! Ask me a question. ",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "33",
+         "q": [
+            "WHAT IS YOUR PRIVACY POLICY"
+         ],
+         "a": "We at Yellow Circle, Inc. (“Yellow Circle,” “we,” “us,” “our”) know that you care about how your personal information is used and shared, and we take your privacy seriously. By accessing or using the Services you acknowledge that you accept the practices and policies outlined in this Privacy Policy. Remember that your use of Yellow Circles Services is at all times subject to the Terms of Service, which incorporates this Privacy Policy. Any terms we use here without defining them have the definitions given to them in the Terms of Service.\n\nPlease read on to learn more about how we collect and use your information; if you have any questions or concerns regarding our privacy practices, please send us a detailed email to support@yellowcircle.net, write us, or call us.\n\nWHAT DOES THIS PRIVACY POLICY COVER?\nThis Privacy Policy explains how Yellow Circle collects and uses information from its Services users, including our treatment of personally identifiable information. This policy does not apply to websites or practices of companies that Yellow Circle does not own or control, or to individuals that Yellow Circle does not employ or manage, including providers of Publisher Software.\n\nHOW IS CHILDREN’S PERSONAL INFORMATION TREATED?\nIf you are not of legal age to form a binding contract (in many jurisdictions, this age is 18), you may only use the Services and disclose information to us with your parent’s or guardian’s express consent. Review this Privacy Policy with your parent or guardian and make sure you understand it, and do the same with the privacy policies of all websites you visit or mobile applications you use.\n\nWe only collect personal information through the Services from a child under 13 where that student’s school, district, and/or teacher has agreed (via the terms described in more detail in the Terms of Service) to obtain parental consent for that child to use the Services and disclose personal information to us, for the use and benefit of the learning environment. If you are a student under 13, please do not send any personal information about yourself to us if your school, district, and/or teacher has not obtained this prior consent from your parent or guardian, and please do not send any personal information other than what we request from you in connection with the Services. If we learn we have collected personal information from a student under 13 without parental consent being obtained by his or her school, district, and/or teacher, or if we learn a student under 13 has provided us personal information beyond what we request from him or her, we will delete the information. If you believe that a student under 13 may have provided us personal information in violation of this paragraph, please contact us at support@yellowcircle.net.\n\nWhen we use the term “Personal Information” in this Privacy Policy, we are referring to personally identifiable information of individual, non-student registrants of the Services. References to “Children’s Personal Information” only apply to personally identifiable information of users who have registered for the Services as minor students (i.e., students under the age of 18). General references to “information” apply to all users.\n\nWHAT INFORMATION DOES YELLOW CIRCLE DISPLAY OR COLLECT?\nInformation You Provide to Us\nWe receive and store any information you knowingly enter on the Services, whether via computer, mobile phone, other wireless device, or that you provide to us in any other way. This information may include, without limitation, Personal Information such as your name, user name, email address, phone number, profile picture, school affiliation and location, and any other information necessary for us to provide our Services. If you are a student registrant, the only Children’s Personal Information we require is your name and user name; through the functionality of the Services, you may also be permitted to input a profile picture, and an email address or phone number.\n\nInformation Collected Automatically\nWe receive and store certain types of usage information whenever you interact with the Services; this information is not Personal Information or Children’s Personal Information. For example, Yellow Circle automatically receives and records information on our server logs from your browser including your IP address, Yellow Circle cookie information, and the page you requested. We also record the details of your activity on the Services, and the number and frequency of visitors to our site and its components.\n\nCookies are alphanumeric identifiers that we transfer to your computer or mobile device to enable our systems to recognize your computer or device and tell us how and when pages in our site are visited and by how many people. Yellow Circle cookies do not collect Personal Information or Children’s Personal Information, and we do not combine the general information collected through cookies with other Personal Information or Children’s Personal Information to tell us who you are or what your user name or email address is. Most browsers have an option for turning off the cookie feature, which will prevent your browser from accepting new cookies, as well as (depending on the sophistication of your browser software) allowing you to decide on acceptance of each new cookie in a variety of ways. We strongly recommend that you leave the cookies activated, however, because you may not be able to log in or use many of the Services’ most attractive features without cookies enabled. Our partners, affiliates, and service providers may also transmit cookies to your computer or device, to help provide you with an optimal online experience. For example, if you are playing a learning game offered by a Publisher, that Publisher may transmit cookies to you, allowing you to save your game history. The use of cookies by third parties is not covered by this Privacy Policy and we do not have access or control over such cookies.\n\nThe Services may also contain electronic images known as web beacons (sometimes called single-pixel gifs) and are used along with cookies to compile aggregated statistics to analyze how the Services are used.\n\nWHAT DOES YELLOW CIRCLE USE MY INFORMATION FOR?\nGenerally\nWhen you use the Services, you may set up your personal profile and transmit information through various channels, depending on the category of user (“User Category”) you are registered as, and as permitted by the functionality of the Services. The information we gather from users enables us to personalize and improve our services, and allows users to set up a user account and profile through the Services.\n\nPersonal Information\nThe Personal Information you provide is used for such purposes as responding to your requests for certain information and services, customizing your experience, and communicating with you about the Services.\n\nChildren’s Personal Information\nWe use the Children’s Personal Information for creating your individual account, customizing your experience, and for sending you notifications via the Services from your teacher, and from Yellow Circle (regarding your use of the Services) (“Notifications”). Please note that your parent or guardian, as well as an administrator, can view all activity and content associated with your student account, including your Children’s Personal Information.\n\nYour email address\nIf you provide us your email address, we may send you email communications. Web beacons may also be used in some of our emails to let us know which emails (and which links within those emails) have been opened by recipients. This allows us to gauge the effectiveness of our customer communications. If you are a student, we will only use your email address to send you Notifications. To opt out of receiving emails from us, please contact us at support@yellowcircle.net. Please note that if you do not want to receive legal notices from us via email, such as this Privacy Policy, those legal notices will still govern your use of the Services, and you are responsible for visiting this Privacy Policy from time to time to review any changes.\n\nUsage Information\nYellow Circle uses this type of aggregate data to enable us to figure out how often users use parts of the Services, so that we can make the Services appealing and relevant to as many users as possible, and customize and improve those Services. As part of our use of information, we may provide aggregate information to our partners (in a non-personally-identifiable format) about how our users use our site. We share this type of statistical data so that our partners also understand how often people use our partners’ services and the Services to help provide you with an optimal online experience. We may link usage information to Personal Information and Children’s Personal Information that we collect through the Services, but we will only use this linked information internally (for example, to customize your experience), and will not disclose it in linked format to third parties.\n\nMobile Usage Information\nThis information is used to determine the device capabilities and usage trends which allows us to better understand which devices we should support and what features are most frequently used.\n\nWILL YELLOW CIRCLE SHARE ANY OF THE PERSONAL INFORMATION OR CHILDREN’S PERSONAL INFORMATION IT RECEIVES?\nPersonal Information and Children’s Personal Information about our users is an integral part of our business. We neither rent nor sell your Personal Information or Children’s Personal Information; the short answer… NO!\n\nIS INFORMATION ABOUT ME SECURE?\nYour Yellow Circle account Personal Information or Children’s Personal Information is protected by a password for your privacy and security. We also use coding practices which take steps to prevent attack on our Services from web browsers and malicious scripts, by processing all actions through several permission verification checks.\n\nYou may help protect against unauthorized access to your account and Personal Information or Children’s Personal Information by selecting and protecting your password appropriately and limiting access to your computer and browser by signing off after you have finished accessing your account.\n\nWhen you enter sensitive information (such as a any personal information) in our system, we encrypt the transmission of that information using secure socket layer technology (SSL).\n\nYellow Circle endeavors to keep your information private; however, we cannot guarantee security. Unauthorized entry or use, hardware or software failure, and other factors may compromise the security of user information. For additional information about the security measures we use in connection with the Services, please contact us at support@yellowcircle.net.\n\nThe Services contain links to other sites. We are not responsible for the privacy policies and/or practices on other sites (but you should read all third parties’ privacy policies to ensure you understand them). This Privacy Policy only governs information collected by Yellow Circle on the Services.\n\nWILL YELLOW CIRCLE EVER CHANGE THIS PRIVACY POLICY?\nWe may make changes to this Privacy Policy from time to time for any reason. Use of information we collect is subject to the Privacy Policy in effect at the time such information is collected. If we make changes in the way we use Personal Information or Children’s Personal Information, we will notify you via email or by posting an announcement on the Services with two (2) weeks prior notice before the change becomes effective. Users are bound by any changes to the Privacy Policy when he or she uses the Services upon the conclusion of such two (2) week notice period. This notice period only applies to changes to the Privacy Policy; you understand that it may not be possible in certain situations to provide advance notice of other changes to the Terms of Service (for example, where a change to the Terms is necessary to comply with legal requirements).\n\nWHAT IF I’M IN A DIFFERENT COUNTRY?\nWhen you use the Services, you are consenting to have your data transferred to and processed in the United States. All of Yellow Circles servers are currently in the United States, and we aren’t able to process your information within the borders of any other country. Given this limitation, if your use of the Services or disclosure of certain information to Yellow Circle would violate any law that is applicable to you, your right to use the Services and/or disclose such information is revoked, as it is wherever use of the Services is prohibited by law (as described in the Terms of Service).\n\nYellow Circle complies with the U.S. – E.U. Safe Harbor Framework and the U.S.-Swiss Safe Harbor Framework set forth by the U.S. Department of Commerce regarding the collection, use and retention of personal data from European Union member countries and Switzerland. Yellow Circle has certified that it adheres to the Safe Harbor Privacy Principles of notice, choice, onward transfer, security, data integrity, access, and enforcement. To learn more about the Safe Harbor program, please click here.\n\nIf you have any further questions or comments about this Privacy Policy, information we collect, or how we your your personal information, you can contact us by email: support@yellowcircle.net.",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "9",
+         "q": [
+            "HOW DO I BROWSE MY WEBSITE IN YELLOWCIRCLE"
+         ],
+         "a": "This tutorial will help you learn how to browse your websites and web applications in the Yellow Circle Learning Platform.\n\nThe Yellow Circle Learning Platform has a variety of web applications to choose from. You can spin up a WordPress website, Joomla, Drupal, and a host of programming languages. In order to access those sites, you must be logged into your account and access them through a desktop instance of your choice.\n\nWe have included a few desktop images to choose from such as Windows, Ubuntu, mint, etc. When you launch a website such as WordPress you will access it from one of these desktop instances.\n\nThis tutorial requires you to have already completed the Getting Started series so you have a solid understanding of how to launch instances.\n\nTo start, spin up both a WordPress (small flavor) and Linux mint (medium flavor) instance. We are going to use Linux mint to access the WordPress website. See below for how it should look.\n\nIn the IP address column, you will see a number in the WordPress row. You will use this number to access your WordPress website from your web browser in your Linux mint instance. Note that your number will likely be different than mine.\nAfter noting your IP address, log into the Linux mint instance through the console. If you do not remember how to do this, re-watch the Spinning up Your First Instance video.\nNow that you’re logged into your Linux mint instance, open up the Firefox browser usually found in the task bar at the bottom as shown here.\n\n\nIn the address bar, type the IP address we found earlier and press enter as shown below. I have used my IP address for this. Make sure you use the one you found for your WordPress instance.\n\nPress enter, and you will be presented with your new WordPress website!Find some websites that teach WordPress and use your new WordPress instance to practice!\nIf you find you cannot get to your WordPress browser, follow this tutorial on Access & Security.",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "10",
+         "q": [
+            "HOW DO I CREATE A PRIVATE NETWORK"
+         ],
+         "a": "This tutorial will help you setup your first private network for your instances. This is an advanced topic for users interested in learning cloud networking.\n\n* Be sure to not change or delete your existing network.\n\nLog into your Yellow Circle account.\nSelect the Network menu item in the left pane and then select Network as shown below.\n\nNow that you are in the Networks section, it is time to setup your private network.\n\nClick + Create Network in the top right corner\n\nYou can give your network any name you want, but we recommend Private Network for beginners.\nLeave Admin State as is. It should be UP.\nLeave Create Subnet checked, and click next.\n\nAfter clicking Next, it will be time to create the subnet. In Subnet Name, put My Subnet.\nIn network address, enter 192.168.1.0/24\nLeave IP Version on IPv4\nIn gateway IP, put 192.168.1.1 and click next. See screenshot below for reference.\n\nThe next screen is subnet details. See the screen shot below.\nCopy the following text into the Allocation Pools: 192.168.1.100,192.168.1.254\nNote there is not space between 100 and 192.\nCopy and paste the below text into the DNS Name Servers\n8.8.8.8\n8.8.4.4\n\nVerify your subnet details page looks like the picture above and click Create.\nNow your private network is created and you’re ready to begin spinning up instances.\nReturn to Getting Started and continue the series to spinning up your first instance.",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "21",
+         "q": [
+            "HOW DO I CREATE A VIRTUAL ROUTER"
+         ],
+         "a": "IMPORTANT: This is an advanced tutorial for students interested in learning about cloud-based routers.\n\nLogin to your cloud dashboard with userid / password provided in an email.\n\nIn dashboard, expand “Network” from left navigation menu.\ndashboard_panel_network\n\nSelect “Routers“.\ndashboard_panel_network_router_create\n\nClick “+ Create Router“\nProvide your router a Name (Recommended name is XX-Router-N where XX are tenant initials, and N is an integer).\ndashboard_panel_network_router_create_form\n\nClick on “Set Gateway” to connect “XX-Router-N” to external network so that network traffic can reach servers outside you networks. You must “Set Gateway” if you want your virtual machines to be able to reach internet.\ndashboard_panel_network_router_list\n\nExternal Network – Select “Cloud External Network”\n–\ndashboard_panel_network_router_set_gateway_form\nClick “Set Gateway“\nCongratulations, you have successfully created your first router in the cloud, and connected it to external network.",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "5",
+         "q": [
+            "I CREATED A WEB APPLICATION INSTANCE (SUCH AS WORDPRESS). HOW DO I VIEW IT?"
+         ],
+         "a": "You have to spin up a desktop instance and browse to your website from there.",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "34",
+         "q": [
+            "WHAT IS YOUR COPYRIGHT POLICY"
+         ],
+         "a": "Yellow Circle Inc. (“Company”) has adopted the following general policy toward copyright infringement in accordance with the Digital Millennium Copyright Act (http://lcweb.loc.gov/copyright/legislation/dmca.pdf). The address of the Designated Agent to Receive Notification of Claimed Infringement (“Designated Agent”) is listed at the end of this policy.\n\nProcedure for Reporting Copyright Infringement:\nIf you believe that material or content residing on or accessible through Company’s websites or services infringes a copyright, please send a notice of copyright infringement containing the following information to the Designated Agent listed below:\n\nA physical or electronic signature of a person authorized to act on behalf of the owner of the copyright that has been allegedly infringed;\nIdentification of works or materials being infringed; this includes, at a minimum and if applicable, the URL or IP address of the link shown on the Site where such material may be found, as well as the reference or link to the material or activity that you claim to be infringing, that is to be removed or access to which is to be disabled, and information reasonably sufficient to permit us to locate that reference or link, including at a minimum, if applicable, the URL or IP address of the link shown on the Site where such reference or link may be found.\nContact information about the notifier including address, telephone number and, if available, e-mail address;\nA statement that the notifier has a good faith belief that the material is not authorized by the copyright owner, its agent, or the law; include this statement in the body of the Notice:\nI hereby state that I have a good faith belief that the disputed use of the copyrighted material or reference or link to such material is not authorized by the copyright owner, its agent, or the law (e.g., as a fair use).\nA statement made under penalty of perjury that the information provided is accurate and the notifying party is authorized to make the complaint on behalf of the copyright owner; include this statement in the body of the Notice:\nI hereby state that the information in this Notice is accurate and, under penalty of perjury, that I am the owner, or authorized to act on behalf of the owner, of the copyright or of an exclusive right under the copyright that is allegedly infringed.\nPlease contact the Designated Agent to Receive Notification of Claimed Infringement for Company at support@yellowcircle.net or at:\n\nNavneet Grewal\n(916) 581-0101\n\nYellow Circle Inc\nAttn: Abuse\nPO Box 2383\nElk Grove, CA 95759-2383",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "32",
+         "q": [
+            "WHAT ARE YOUR TERMS OF USE"
+         ],
+         "a": "EFFECTIVE DATE: NOVEMBER 1, 2014\nIMPORTANT! If you are not of legal age to form a binding contract (in many places, this is 18 years old), then you must get your parent or guardian to read these terms and agree to them for you, before you use Yellow Circle or provide any information to us. Please review this agreement with your parent or guardian so that you both understand how Yellow Circle works and what restrictions apply to your use of our websites and services. Remember, always get an adult’s permission before going online.\n\nThanks for using Yellow Circle! We’re glad you’re here, but there are some rules you need to agree to before you use our websites and services (“Services”). When we use the word “Services,” we mean not only the yellowcircle.net website, but also all the other websites, products, services and applications made available by Yellow Circle. If you have any questions, comments, or concerns regarding these Terms or the Services, please contact us at support@yellowcircle.net, (916) 581-0101, or PO Box 2383 Elk Grove CA 95759-2383.\n\nTHE CONTRACT.\nThese Terms of Service (the “Terms”) are a binding contract between you and Yellow Circle, Inc. (“Yellow Circle,” “we” and “us”). You must agree and accept all of the Terms, or you don’t have the right to use the Services. Your using the Services in any way means that you agree to all of these Terms, and these Terms will remain in effect while you use the Services.\n\nThese Terms include the provisions in this document and in the Yellow Circle Privacy Policy.\n\nOur Services are constantly changing, to keep up with the dynamic needs of learners everywhere – so, these Terms might need to change, too. If they do change, we will do our best to tell you in advance by placing a notification on the yellowcircle.net website, or we might send you an email. In certain situations (for example, where a change to the Terms is necessary to comply with legal requirements), we may not be able to give you advance notice. Changes to the Privacy Policy will be provided in advance, as described in the privacy policy.\n\nIf you don’t like the new Terms, you are free to reject them – unfortunately, that means you won’t be able to use the Services anymore. If you use the Services in any way after a change to the Terms is effective, then please remember that means you agree to all of the Terms.\n\nExcept for changes by us as described here, no other amendment or modification of these Terms will be effective unless in writing and signed by both you and us.\n\nDO YOU CARE ABOUT MY PRIVACY?\nYellow Circle takes the privacy of its users very seriously. For the entire current Yellow Circle Privacy Policy, please click here and for information regarding the Children’s Online Privacy and Protection Act (“COPPA”), please click here, because we get a lot of questions about that.\n\nCOPPA requires that online service providers obtain parental consent before they collect personally identifiable information online from children who are under 13. Therefore, we only collect personal information through the Services from a child under 13 where that student’s school, district, and/or teacher has agreed (via the terms described in the following paragraph) to obtain parental consent for that child to use the Services and disclose personal information to us, for the use and benefit of the learning environment. If you are a student under 13, please do not send any personal information about yourself to us if your school, district, and/or teacher has not obtained this prior consent from your parent or guardian, and please do not send any personal information other than what we request from you in connection with the Services. If we learn we have collected personal information from a student under 13 without parental consent being obtained by his or her school, district, and/or teacher, or if we learn a student under 13 has provided us personal information beyond what we request from him or her, we will delete that information as quickly as possible. If you believe that a student under 13 may have provided us personal information in violation of this paragraph, please contact us at support@yellowcircle.net.\n\nIf you are a school, district, or teacher, you represent and warrant that you are solely responsible for complying with COPPA, meaning that you must obtain advance written consent from all parents or guardians whose children under 13 will be accessing the Services. You are responsible for understanding how any Publisher Software (defined and described below) that you install on behalf of yourself or other users may collect and use information of users of Yellow Circle Services. When obtaining consent, you must provide parents and guardians with our Privacy Policy. You must keep all consents on file and provide them to us if we request them. For more information on COPPA, please click here. If you are a teacher, you represent and warrant that you have permission and authorization from your school and/or district to use the Services as part of your curriculum, and for purposes of COPPA compliance, you represent and warrant that you are entering into these Terms on behalf of your school and/or district.\n\nWHAT ARE THE BASICS OF USING YELLOW CIRCLE?\nFirst, you have to sign up for an account, and select a password and user name (“Yellow Circle User ID”). Also, if you are a school or district, you may be permitted to register a school or district “subdomain” within yellowcircle.net (an “Yellow Circle Subdomain”). You promise to provide us with accurate, complete, and updated registration information about yourself. You can’t select for your Yellow Circle User ID a name that you don’t have the rights to use or another person’s name with the intent to impersonate that person, nor can you select an Yellow Circle Subdomain name that you don’t have the right to use. In certain situations, your Yellow Circle User ID may be selected for you by your school or district; the same rules apply to them when they select an Yellow Circle User ID for you. You may not transfer your account to anyone else without our prior written permission.\n\nYou represent and warrant that you are of legal age to form a binding contract (or if not, you’ve received your parent’s or guardian’s permission to use the Services and gotten your parent or guardian to agree to these Terms on your behalf, as we described earlier). If you’re agreeing to these Terms on behalf of an organization or entity (for example, if you’re an administrator agreeing to these Terms on behalf of your district), you represent and warrant that you are authorized to agree to these Terms on that organization or entity’s behalf and bind them to these Terms.\n\nYou promise to only use the Services for your personal, internal, non-commercial, educational use, and only in a manner that complies with all laws that apply to you. If your use of the Services is prohibited by applicable laws, then you aren’t authorized to use the Services. We can’t and won’t be responsible for you using the Services in a way that breaks the law.\n\nPlease be a good digital citizen at all times – we are all in this together!\n\nINTELLECTUAL PROPERTY.\nThe Content\nThe materials displayed or performed on the Services (including, but not limited to, text, graphics, articles, photos, images, illustrations, User Submissions (defined below), and so forth) (the “Content”) are protected by copyright and other intellectual property laws. You promise to abide by all copyright notices, trademark rules, information, and restrictions contained in any Content you access through the Services, and you won’t use, copy, reproduce, modify, translate, publish, broadcast, transmit, distribute, perform, upload, display, license, sell or otherwise exploit for any purpose any Content not owned by you, (i) without the prior consent of the owner of that Content or (ii) in a way that violates someone else’s (including Yellow Circles) rights. For example, if someone shares a really creative lesson plan with you on Yellow Circle, that doesn’t mean you can print it out and start distributing it to other people – unless the owner specifically told you in writing that you could.\n\nYou understand that Yellow Circle owns the Services. You won’t modify, publish, transmit, participate in the transfer or sale of, reproduce (except as expressly provided in this Section), creative derivative works based on, or otherwise exploit any of the Services.\n\nThe Services may allow you to copy or download certain Content; please remember that just because this functionality exists, doesn’t mean that all the restrictions above don’t apply.\n\nUser Submissions\nAnything you post, upload, share, store, or otherwise provide through the Services is your “User Submission.” Some User Submissions are viewable by other users. In order to display your User Submissions on the Services, and to allow other users to enjoy them (where applicable), you grant us certain rights in those User Submissions. Please note that all of the following licenses are subject to our Privacy Policy to the extent they relate to User Submissions that are also your personally-identifiable information.\n\nFor all User Submissions, you hereby grant Yellow Circle a license to translate, modify (for technical purposes, for example making sure your content is viewable on your iPhone as well as your computer) and reproduce such User Submission, in each case to enable us to operate the Services, as described in more detail below. This is a license only – your ownership in User Submissions is not affected.\n\nIf you store a User Submission in your own personal Yellow Circle account, in a manner that is not viewable by any other user except you (a “Personal User Submission”), you grant Yellow Circle the license above, as well as a license to display, perform, and distribute your Personal User Submission for the sole purpose of displaying that Personal User Submission to you and providing you the Services necessary to do so.\n\nIf you share a User Submission in a public “community” on the Services or in a manner that more than just you or your Limited Access Group can view (a “Public User Submission”), then you grant Yellow Circle the license above, as well as a license to display, perform, and distribute your Public User Submission for the purpose of displaying that Public User Submission to all Yellow Circle users and providing you the Services necessary to do so, as well as all other rights necessary to use and exercise all rights in that Public User Submission in connection with Yellow Circle, provided that Yellow Circle will try to notify you if it uses your Public User Submission for any reason other than displaying it on the Services. Also, you grant all other users of the Services a license to access that Public User Submission, and to use and exercise all rights in it, as permitted by the functionality of the Services.\n\nYou agree that the licenses you grant are royalty-free, irrevocable, and worldwide, for as long as your User Submissions are stored with us. When you delete your Yellow Circle account, we will stop displaying your User Submissions to other users (if applicable), but you understand and agree that it may not be possible to completely delete that content from Yellow Circles records, and that your User Submissions may remain viewable elsewhere to the extent that they were copied or stored by other users.\n\nFinally, you understand and agree that Yellow Circle, in performing the required technical steps to provide the Services to our users (including you), may need to make changes to your User Submissions to conform and adapt those User Submissions to the technical requirements of connection networks, devices, services, or media.\n\nDMCA Takedown Policy\nYou may have heard of the Digital Millennium Copyright Act (“DMCA”), as it relates to online service providers like Yellow Circle removing material that they believe in good faith violates someone’s copyright. To learn more about DMCA, click here.\n\nWHO IS RESPONSIBLE FOR WHAT I SEE AND DO ON THE SERVICES?\nAny information or content publicly posted or privately transmitted through the Services is the sole responsibility of the person from whom such content originated, and you access all such information and content at your own risk, and we aren’t liable for any errors or omissions in that information or content or for any damages or loss you might suffer in connection with it. We cannot control and have no duty to take any action regarding how you may interpret and use the Content or what actions you may take as a result of having been exposed to the Content, and you hereby release us from all liability for you having acquired or not acquired Content through the Services. The Services may contain, or direct you to websites containing, information you may find offensive or inappropriate; we can’t control that, but please let us know if it happens and we’ll try to remedy the situation.\n\nWe also can’t guarantee the identity of any users with whom you interact in using the Services and are not responsible for which users gain access to the Services.\n\nYou are responsible for all Content you contribute, in any manner, to the Services, and you represent and warrant you have all rights necessary to do so, in the manner in which you contribute it. You will keep all your registration information accurate and current. You are responsible for all your activity in connection with the Services.\n\nThe Services may contain links or connections to third party websites or services that are not owned, operated, or controlled by Yellow Circle. When you access third party websites or use third party services (including, without limitation, your use of Publisher Software, defined below), you accept that there are risks in doing so, and that Yellow Circle is not responsible for such risks. We encourage you to be aware when you leave the Services and to read the terms and conditions and privacy policy of each third party website or service that you visit or utilize.\n\nYellow Circle has no control over, and assumes no responsibility for, the content, accuracy, privacy policies, or practices of or opinions expressed in any third party websites or by any third party that you interact with through the Services. In addition, Yellow Circle will not and cannot monitor, verify, censor or edit the content of any third party site or service (including without limitation the Publisher Software). By using the Services, you release and hold us harmless from any and all liability arising from your use of any third party website or service.\n\nYour interactions with organizations and/or individuals found on or through the Services, including payment and delivery of goods or services, and any other terms, conditions, warranties, or representations associated with such dealings, are solely between you and such organizations and/or individuals. You should make whatever investigation you feel necessary or appropriate before proceeding with any online or offline transaction with any of these third parties (including without limitation Publishers). You agree that Yellow Circle shall not be responsible or liable for any loss or damage of any sort incurred as the result of any such dealings.\n\nIf there is a dispute between participants on this site, or between users and any third party, you agree that Yellow Circle is under no obligation to become involved. In the event that you have a dispute with one or more other users, you release Yellow Circle, its officers, employees, agents, and successors from claims, demands, and damages of every kind or nature, known or unknown, suspected or unsuspected, disclosed or undisclosed, arising out of or in any way related to such disputes and/or our Services. If you are a California resident, you shall and hereby do waive California Civil Code Section 1542, which says: “A general release does not extend to claims which the creditor does not know or suspect to exist in his favor at the time of executing the release, which, if known by him must have materially affected his settlement with the debtor.”\n\nWILL YELLOW CIRCLE EVER CHANGE THE SERVICES?\nYellow Circle is a dynamic learning tool, so the Services will change over time. We may change, suspend, or discontinue any part of the Services, or we may introduce new features or impose limits on certain features or restrict access to parts or all of the Services. We’ll try to give you notice when we make a material change to the Services that would adversely affect you, but this isn’t always practical. Similarly, we reserve the right to remove any Content from the Services at any time, for any reason (including, but not limited to, if someone alleges you contributed that Content in violation of these Terms), or without any reason, and without notice.\n\nDOES YELLOW CIRCLE COST ANYTHING?\nYellow Circle Services are free and always will be – that is, we don’t charge for signing up for an individual Yellow Circle account.\n\nWHAT IF I WANT TO STOP USING YELLOW CIRCLE?\nYou’re free to do that at any time; please refer to our Privacy Policy, as well as the licenses above, to understand how we treat information you provide to us after you have stopped using our Services.\n\nYellow Circle is also free to terminate (or suspend access to) your use of the Services or your account, for any reason, including your breach of these Terms. Yellow Circle has the sole right to decide whether you are in violation of any of the restrictions set forth in these Terms.\n\nAccount termination may result in destruction of any Content associated with your account, so keep that in mind before you decide to terminate your account. We will try to provide advance notice to you prior to our terminating your account so that you are able to retrieve any important documents you may have stored in your account (to the extent allowed by law and these Terms), but we may not do so if we determine it would be impractical, illegal, or would not be in the interest of someone’s safety or security to do so.\n\nIf you have deleted your account by mistake, contact us immediately at support@yellowcircle.net – we will try to help, but unfortunately, we can’t promise that we can recover or restore anything.\n\nProvisions that, by their nature, should survive termination of these Terms shall survive termination. By way of example, all of the following will survive termination: any obligation you have to pay us or indemnify us, any limitations on our liability, any terms regarding ownership or intellectual property rights, and terms regarding disputes between us.\n\nLEGAL INFORMATION.\nWarranty Disclaimer\nYellow Circle does not make any representations or warranties concerning any content contained in or accessing through the Services, and we will not be responsible or liable for the accuracy, copyright compliance, legality, or decency of material contained in or accessed through the Services. We make no representations or warranties regarding suggestions or recommendations of services or products (including Publisher Software) offered or purchased through the Services. Products and services purchased or offered (whether or not following such recommendations and suggestions) through the Services are provided “AS IS” and without any warranty of any kind from Yellow Circle or others (unless, with respect to such others only, provided expressly and unambiguously in writing by a designated third party for a specific product). THE SERVICES, CONTENT, WEBSITE, AND ANY SOFTWARE ARE PROVIDED ON AN “AS-IS” BASIS, WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, OR THAT USE OF THE SERVICES WILL BE UNINTERRUPTED OR ERROR-FREE. SOME STATES DO NOT ALLOW LIMITATIONS ON HOW LONG AN IMPLIED WARRANTY LASTS, SO THE ABOVE LIMITATIONS MAY NOT APPLY TO YOU.\n\nLimitation of Liability\nTO THE FULLEST EXTENT ALLOWED BY APPLICABLE LAW, UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY (INCLUDING, WITHOUT LIMITATION, TORT, CONTRACT, STRICT LIABILITY, OR OTHERWISE) SHALL YELLOW CIRCLE BE LIABLE TO YOU OR TO ANY OTHER PERSON FOR (A) ANY INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY KIND, INCLUDING DAMAGES FOR LOST PROFITS, LOSS OF GOODWILL, WORK STOPPAGE, ACCURACY OF RESULTS, OR COMPUTER FAILURE OR MALFUNCTION, OR (B) ANY AMOUNT, IN THE AGGREGATE, IN EXCESS OF THE GREATER OF (I) $100 OR (II) THE AMOUNTS PAID BY YOU TO YELLOW CIRCLE IN CONNECTION WITH THE SERVICES IN THE TWELVE (12) MONTH PERIOD PRECEDING THIS APPLICABLE CLAIM, OR (III) ANY MATTER BEYOND OUR REASONABLE CONTROL. SOME STATES DO NOT ALLOW THE EXCLUSION OR LIMITATION OF CERTAIN DAMAGES, SO THE ABOVE LIMITATION AND EXCLUSIONS MAY NOT APPLY TO YOU.\n\nIndemnity\nYou agree to indemnify and hold Yellow Circle, its affiliates, officers, agents, employees, contractors, and partners harmless for and against any and all claims, liabilities, damages (actual and consequential), losses, and expenses (including attorneys’ fees) arising from or in any way related to any third party claims relating to (a) your use of the Services (including any actions taken by a third party using your account), and (b) your violation of these Terms. In the event of such a claim, suit, or action (“Claim”), we will provide notice of the Claim to the contact information we have for your account (provided that failure to deliver such notice shall not eliminate or reduce your indemnification obligations hereunder).\n\nAssignment\nYou may not assign, delegate, or transfer these Terms or your rights or obligations hereunder, or your Services account, in any way (by operation of law or otherwise) without Yellow Circles prior written consent. We may transfer, assign, or delegate these Terms and our rights and obligations without consent.\n\nChoice of Law; Arbitration\nThese Terms are governed by and will be construed under the laws of the State of California, without regard to the conflicts of laws provisions thereof. Any dispute arising from or relating to the subject matter of these Terms shall be finally settled in San Francisco County, California, in English, in accordance with the Streamlined Arbitration Rules and Procedures of Judicial Arbitration and Mediation Services, Inc. (“JAMS”) then in effect, by one commercial arbitrator with substantial experience in resolving intellectual property and commercial contract disputes, who shall be selected from the appropriate list of JAMS arbitrators in accordance with the Arbitration Rules and Procedures of JAMS. Judgment upon the award rendered by such arbitrator may be entered in any court of competent jurisdiction. Notwithstanding the foregoing obligation to arbitrate disputes, each party shall have the right to pursue injunctive or other equitable relief at any time, from any court of competent jurisdiction. For all purposes of this Agreement, the parties consent to exclusive jurisdiction and venue in the United States Federal Courts located in the Northern District of California.\n\nMiscellaneous\nYou will be responsible for withholding, filing, and reporting all taxes, duties, and other governmental assessments associated with your activity in connection with the Services. The failure of either you or us to exercise, in any way, any right herein shall not be deemed a waiver of any further rights hereunder. If any provision of this Agreement is found to be unenforceable or invalid, that provision will be limited or eliminated, to the minimum extent necessary, so that these Terms shall otherwise remain in full force and effect and enforceable. You and Yellow Circle agree that these Terms are the complete and exclusive statement of the mutual understanding between you and Yellow Circle, and that it supersedes and cancels all previous written and oral agreements, communications, and other understandings relating to the subject matter of these Terms, and that all modifications to these Terms must be in a writing signed by both parties (except as otherwise provided herein). No agency, partnership, joint venture, or employment is created as a result of these Terms and you do not have any authority of any kind to bind Yellow Circle in any respect whatsoever. You and Yellow Circle agree there are no third party beneficiaries intended under this Agreement.",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "8",
+         "q": [
+            "HOW DO I SPIN UP A VIRTUAL INSTANCE OR MACHINE"
+         ],
+         "a": "Log into your Yellow Circle Account\nIn the Computer menu, select Instances as shown below.\n\nYou are now in the Instances overview, which is probably blank if this is your first time.\nIn the top menu, click on Launch Instance. \nGive your instance a name. I recommend Linux mint, then click next.\nIn the filter menu, type mint. Linux-mint-live-cd will then display. Click the + button to the right of it and Click next.      See below for reference.\n\nYou will now be in the Flavor menu. Flavor refers to the size of the instance such as memory, processor, disk space, etc. Find lab.medium and press the + button to the right.\nClick Launch Instance. If it’s grayed out, go to the bottom of this tutorial for help.\nYour instance will then begin to spawn as shown below.\n\nWithin a few moments your instance will be ready. It will stop being orange, and the status will be Active.\n\nConsole into your new instance by clicking the drop down menu on the right and select console.\n\nYou will now see your desktop. You will want to click on the “Click here to show console” link to begin using the instance. You will find it in the blue text box above your instance. Read the whole text box to understand how to use this option.\n\n*If Launch Instance is grayed out, you either missed a step in this tutorial, or you have not completed the Creating a Private Network tutorial. Click here to be taken to the tutorial for assistance.",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "12",
+         "q": [
+            "HOW DO I LOG INTO A VIRTUAL MACHINE USING PUTTY"
+         ],
+         "a": "Pre-requisites: \n\nYou must have at least a Plus subscription. After sign up you will receive your connection information for RDP, SSH and HTTP (web) access to your instances.\nStep 1 – Download PuTTY\n\nAll users who have public IP addresses assigned, or have port-forwarding subscription can use PuTTY to directly connect to their virtual machines. PuTTY is a free SSH client, that can be installed on your Windows computer to access your virtual machines in Yellow Circle platform.\n\nPuTTY is available for download here.\n\nStep 2 – Setup your PuTTY configuration\n\nThis tutorial assumes that you have your root password, and will be using root userid and password to login. Once you have PuTTY installed on your Windows computer, launch PuTTY. Configuration screen will prompt you for basic information.\n\nFill in the Host Name (or IP address) – This is the name that you received in your port-forwarding email. It is usually “ssh.yellowcircle.net“\nNext, specify the port number. This is 22 by default, and you must change it to the one that was emailed to you in “port-forwarding email. It usually starts with 22xxx (where xxx are unique values to your virtual machine).\nOptional: You can give your session a name in “Saved Sessions” field, and click Save for future connections.\nStep 3 – Establish connection\n\nClick on Open button on the PuTTY Configuration screen. If this is the first time you are connecting to this virtual machine, you may be prompted to accept the RSA2 key. Click Yes\nLogin with your root id and password.",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "30",
+         "q": [
+            "DO YOU ACCEPT CORPORATE SPONSORSHIP"
+         ],
+         "a": "As a non-profit organization, we rely on donations and sponsorship from corporations and business to help us with our mission, and at the same time you can meet your social corporate responsibility (CSR) by helping Yellow Circle.\n\nCorporate or business checks made out to Yellow Circle Inc can be mailed to:\nYellow Circle Inc\nPO Box 2383\nElk Grove CA 95759-2383\nUSA\n\nQuestion can be emailed to : support@yellowcircle.net",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "42",
+         "q": [
+            "cancel"
+         ],
+         "a": "goodbye",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "4",
+         "q": [
+            "MY INSTANCES SEEM TO BE SHUTOFF EVERY WEEK. WHY?"
+         ],
+         "a": "There are two reasons for this:\n\nYellow Circle is a learning platform, and not an environment for other purposes such as hosting a website. In order to prevent unauthorized use, we shut down all instances every week on Friday. Don’t worry, nothing is deleted. Just log on and start your instances back up and you’re back in business!\nOur resources are limited, so to ensure there is plenty to go around, shutting down instances weekly will keep inactive user’s instances powered off. This frees up resources for our active users, giving you a good experience with minimal lag.",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "15",
+         "q": [
+            "HOW DO I CREATE AND MANAGE SECURITY GROUPS"
+         ],
+         "a": "Login to your cloud dashboard with userid / password provided in an email.\n\n(IMPORTANT: Dashboard uses features from HTML5, please use browser that fully supports HTML5. Some examples are Firefox, Google Chrome, Opera). \n\nIn dashboard, expand “Compute” from left navigation menu, and go to “Access & Security” section.\nGo to “Security Groups” tab and click on “Manage Rules” under “Actions” for the rule that is applied to your virtual machines.\nYou can remove rules by clicking on “Delete Rule“, or create a new one from “+ Add Rule”\nRule, system provides a list of pre-defined rules, or you can select custom from this list.\nBased on your selection, rest of the fields will change.\nDirection, ingress or egress (in-bound or out-bound).\nOpen Port, is it a single port or port-range.\nPort\nRemote is the source, can be CIDR or a Security Group\nClick “Add“.\nSecurity Group changes are applied instantly to your cloud environment.\nIf you have “Firewall” created, you may have to update matching rules, see tutorial on “Firewalls” for details.",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "36",
+         "q": [
+            "WHAT IS YOUR FACEBOOK NAME"
+         ],
+         "a": "yellowcirclecloud",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "27",
+         "q": [
+            "WHAT IS YOUR ADDRESS"
+         ],
+         "a": "Yellow Circle Inc.\nP.O. Box 2383\nElk Grove, CA 95759-2383\nUSA",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "6",
+         "q": [
+            "WHAT CAN I DO IN YELLOW CIRCLE?"
+         ],
+         "a": "Yellow Circle is the place for all levels of Information Technology students to create enterprise grade solutions while learning. This free Cloud service provides students with virtual infrastructure to create routers, networks, servers, firewalls, & load-balancers. This environment is built for students to be innovative with their ideas and create enterprise grade information technology infrastructures all from within their web browser, without ever thinking about the cost of any of the items.",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "20",
+         "q": [
+            "HOW DO I CREATE A PRIVATE VIRTUAL NETWORK"
+         ],
+         "a": "Login to your cloud dashboard with userid / password provided in an email.\n\n(IMPORTANT: Dashboard uses features from HTML5, please use browser that fully supports HTML5. Some examples are Firefox, Google Chrome, Opera).\n–\ndashboard_login\n–\n\nIn dashboard, expand “Network” from left navigation menu.\n–\ndashboard_panel_network\n–\nSelect “Networks“, then click “+ Create Network”\nProvide your network a name (Recommended name is XX-Network-ABC where XX are tenant initials, and ABC defines the network zone like DMZ, APP, UTIL, DATA, etc.), click “Next“.\n–\ndashboard_network_panel_create_network_form_name\n–\nProvide Subnet Name (XX-Subnet-ABC), Network Address (some private range can be 10.x.x.x, 172.x.x.x, 100.x.x.x), it is recommend to use /24 or smaller range, leave IP Version to IPv4, and leave Gateway IP blank, then click “Next“.\n–\ndashboard_network_panel_create_network_form_subnet\n–\nLeave “Enable DHCP” if you plan to have your virtual machines automatically get IP addresses. Allocation pool should be within the range from previous step, DNS Name Servers can be 8.8.8.8 & 8.8.4.4 (or if you have your own within your private network), leave host routes blank, and click “Create“.\n–\n\n–\nYour cloud network is now created but not connected to any routers. Go back to “Routers” tab on left and click on “XX-Router-N” or the name of your router under Name column.\n–\ndashboard_panel_network_router_list\n–\nClick on “+ Add Interface” to create a virtual port on router to connect to network created in step 4.\n–\n\n–\nSubnet – Select the subnet created in step 4.\nIP Address is optional, as it is automatically assigned by the system, unless you need custom gateway addresses.\nClick “Add interface“, and refresh the page to make sure Status of newly created interface changes to “ACTIVE“.\n–\ndashboard_network_panel_router_add_interface_form\n–\nCongratulations, you have successfully created a private network in the cloud, and connected it to your router, that is connected to external network. You can visually see this by clicking on “Network Topology” on left navigation menu.\n–\ndashboard_network_panel_network_topology\n–\nDo you need more than one network? Just follow the same steps to create additional networks.",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "2",
+         "q": [
+            "I HAVE A FREE ACCOUNT AND CANNOT ACCESS THE INTERNET FROM MY INSTANCES. WHY?"
+         ],
+         "a": "Our free account is to help new students learn the basics of information technology such as creating applications and connecting to them. To help students learn the core concepts of technology and its infrastructure. To make this possible without internet access from your instances we offer many different applications and operating systems. Try this tutorial to help get an understanding of how best to use the free account.\n\nAs you become more advanced, you may find you need internet access to learn more advanced concepts. You may sign up for a paid subscription which will provide internet access from your instances. As your understanding of technology increases, you may wish to have direct access to your websites and servers and may opt to subscribe to our advanced subscriptions.",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "35",
+         "q": [
+            "WHAT IS YOUR TWITTER HANDLE?"
+         ],
+         "a": "yellowcirclenet",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "38",
+         "q": [
+            "WHAT IS YOUR INSTAGRAM NAME"
+         ],
+         "a": "yellowcirclecloud",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "43",
+         "q": [
+            "help"
+         ],
+         "a": "see our website for help goodbye",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "1",
+         "q": [
+            "HOW DO I UPGRADE MY SUBSCRIPTION?"
+         ],
+         "a": "If you have been using the free Yellow Circle Learning Platform for a while and you are ready to take your learning experience to the next level, follow this guide for some quick help on how to switch your subscription.",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "13",
+         "q": [
+            "HOW DO I STORE FILES IN CLOUD OBJECT STORAGE"
+         ],
+         "a": "Login to your cloud dashboard with userid / password provided in an email.\n\n(IMPORTANT: Dashboard uses features from HTML5, please use browser that fully supports HTML5. Some examples are Firefox, Google Chrome, Opera). \n\nIn dashboard, expand “Object Store” from left navigation menu.\nSelect “Containers“, and click “+ Create Container“.\nContainer Name: Provide a name for the files container.\nContainer Access: Select “Private” or “Public” based on your needs.\nUnder “Containers” column, select the container you just created.\nOn the right side, select “Upload Object” to start savings files to you cloud files storage.\nObject Name: Give your file a name, preferably the same name as your file you will be uploading.\nFile: Click on “Choose File” then select the file to upload from your computer.\nClick “Upload Object” to upload your file.\nYou file has been uploaded to cloud object storage, and is now replicated onto three different servers in the cloud.\nIf you selected “Public” in step 2, you can click on “Public” link next to the container to get the public URL for your container.",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "39",
+         "q": [
+            "WHAT IS YOUR YOUTUBE NAME"
+         ],
+         "a": "yellowcirclecloud",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "18",
+         "q": [
+            "HOW DO I CREATE STORAGE"
+         ],
+         "a": "Login to your cloud dashboard with userid / password provided in an email.\n\n(IMPORTANT: Dashboard uses features from HTML5, please use browser that fully supports HTML5. Some examples are Firefox, Google Chrome, Opera).\n–\ndashboard_login\n–\n\nIn dashboard, expand “Compute” from left navigation menu.\n–\ndashboard_compute_overview\n–\nSelect “Volumes“.\n–\nvolumes_tab_volume\n–\nClick “+ Create Volume” button to start creating your storage volume.\n–\nvolumes_tab_volumes_create_volume\n–\nVolume Name: Provide a name for the volume.\nDescription: A brief description so it is easier to understand the purpose of this volume.\nType: Select a type if there are different options available.\nSize: A numeric value in Gigabytes for volume size.\nVolume Source: A drop down selection gives you option to either create a blank disk by selecting “No source, empty volume” or “Image” then selecting one of the available source images from “Use Image as a source” drop down menu.\nAvailability Zone: Leave default, or select the zone that you prefer.\nClick “Create Volume“.\nYour dashboard will automatically switch back to “Volumes” and you can see your Volume listed in the table. If you selected to create a volume based on a “Image”, the amount of time it takes to copy data will vary. Be patient on “Windows” images as they are between 5 GB – 7 GB each as system will make a full copy of source image to your volume.\n–\nvolumes_tab_volumes_list\n–\nOnce the volume Status is “Available“, you volume is ready. You can perform further actions under “More” next to each volume.\n–\nvolumes_tab_volumes_action_more\n–\nIf an image is used as a source for volume creation, this volume can be used as a boot device in “Create Instances (Virtual Machines)” tutorial.\nIf this is an empty volume, you can click on “More” and then “Edit Attachments” to mount this volume as additional disk on an existing virtual machine.\n–\nvolumes_tab_volumes_action_attachments\n–\nSystem also offers an on-demand way to add additional storage if your volume is running out of disk space. Click “More” next to your volume, then “Extend Volume“.\n–\nvolumes_tab_volumes_action_extend\n–\nOther options under “More” include “Create Snapshot“.\n–\nvolumes_tab_volumes_action_snapshot\n–\nSnapshot Name: Provide a name for the volume.\nDescription: A brief description so it is easier to understand the purpose of this volume.\nYou can see a list of all your snapshots under “Volume Snapshots” tab.\n–\nvolumes_tab_snapshots_list\n–\nOnce you no longer need this additional volume, you can always “Delete Volume” from “More” options.\n–\nvolumes_tab_volumes_action_delete\n–\nCongratulations, you now have dedicated storage volumes / drives in your virtual data-center.",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "7",
+         "q": [
+            "CAN I USE YELLOW CIRCLE FOR REASONS OTHER THAN LEARNING OR DISCOVERING TECHNOLOGY?"
+         ],
+         "a": "Yellow Circle’s services are strictly about learning, discovering, and a place for innovation. We perform routine audits to ensure users are not violating these terms of use. If it is determined a user is violating these terms, their account will be terminated without notice.",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "16",
+         "q": [
+            "HOW DO I ASSOCIATE A FLOATING IP ADDRESS"
+         ],
+         "a": "Login to your cloud dashboard with userid / password provided in an email.\n\n(IMPORTANT: Dashboard uses features from HTML5, please use browser that fully supports HTML5. Some examples are Firefox, Google Chrome, Opera).\n\nIn dashboard, expand “Compute” from left navigation menu, and go to “Access & Security” section.\nGo to “Floating IPs” tab and click on “Allocate IP To Project“.\nPool, select the “Cloud-Network-External” and click “Allocate IP“.\nYou will see a public IP address (Currently a 172.16.xxx.xxx) allocated to your project. This IP address is not associated to any of your services or virtual machines yet.\nClick “Associate” under “Actions“.\nIP Address, is the public IP Address you just allocated.\nPort to be associated, is you virtual machine, or load-balancer vip.\nBy default, there are default security rules that block all in-bound traffic to your machines within the cloud. To allow external access to your Floating IPs, see “How to create / manage Security Groups” tutorial. If you have “Firewall” created, you may have to update rules, see “How to create a Virtual Firewall” tutorial.\nCongratulations, you have successfully associated a “Public IP Address” to your existing virtual machine or load-balancer.\n",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "28",
+         "q": [
+            "WHO IS YOUR MASCOT"
+         ],
+         "a": "Max has been the perfect mascot for Yellow Circle well before our launch. He has been listening in to all of our productive discussions, and soaking in all the knowledge he can. He has been a perfect foot-rest for those long coding sessions, and has helped us with clean-up after all the lunch / dinner working sessions.\n\nWe are still working on his compensation package, we hope our Board of Directors are generous to Max.",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "11",
+         "q": [
+            "HOW DO I REMOTE DESKTOP INTO A WINDOWS INSTANCE"
+         ],
+         "a": "Pre-requisites: \n\nYou must have at least the Plus subscription. You will be sent an email with connection information for RDP, SSH and HTTP access to your instances.\nStep 1 – Enable Remote Desktop\n\nBy default, Remote Desktop is disabled on all Windows based operating systems.\n\nLogin to your Windows virtual machine my using the dashboard located at https://mylab.yellowcircle.net\nFrom “Start” menu, right-click on This PC or Computer (Depends on version of windows you are running), then click on Properties.\nIn the left pane, click on Remote settings to bring up System Properties / Remote tab.\nSection labeled Remote Desktop has two or three options, select Allow remote connection to this computer\nClick OK\nStep 2 – Connect to your virtual machine using Remote Desktop from your own computer\n\nFrom your Windows client machine, launch Remote Desktop Connection, this can be located by going to the Start menu and search for remote desktop\n\nFill in the Computer: – This is the name that you received in your port-forwarding email. It is usually rdp.yellowcircle.net:xxxx.\nClick Connect, and then provide your Windows username & password.\nOptional items specific to Remote Desktop (Display, Local Resources, Experience, Advanced)\nDisplay tab, you can specify screen size, color quality\nLocal Resources gives you option to enable local sound, keyboard options, and device mappings for drives and printers.\nExperience tab allows you to adjust windows features based on your connection speed.\nAdvanced tab provides security and gateway related information. This does not apply to machines in Yellow Circle learning platform.\nYou can also save your connection as a RDP file with custom settings, including username & password.",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "3",
+         "q": [
+            "HOW DO I GET TO MY INSTANCES FROM MY HOME COMPUTER?"
+         ],
+         "a": "HOW DO I GET TO MY INSTANCES FROM MY HOME COMPUTER?\nYellow Circle offers a variety of remote access options to get to your instance from anywhere in the world:\n\nAbility to access your website from anywhere (HTTP)\nUse remote console from your dashboard\nSSH into your Linux virtual machine*\nRDP into your Windows virtual machine*\n* HTTP, SSH and RDP are included in the Plus subscription and above. ",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "17",
+         "q": [
+            "HOW DO I CREATE A VIRTUAL LOAD BALANCER"
+         ],
+         "a": "Login to your cloud dashboard with userid / password provided in an email.\n\n(IMPORTANT: Dashboard uses features from HTML5, please use browser that fully supports HTML5. Some examples are Firefox, Google Chrome, Opera). \n\nIn dashboard, expand “Network” from left navigation menu, and go to “Load Balancers” section.\nGo to “Pools” tab, click on “+ Add Pool“.\nName: Provide a name for the pool (recommended name is XX-Pool-purpose-Y where XX are tenant initials, purpose can be web, app, app name, and Y is a unique numeric value in case you have multiple pools for same purpose).\nDescription\nSubnet, select the subnet where this pool will reside.\nProtocol, select HTTP for plain web, HTTPS for SSL, or TCP for custom.\nLoad Balancing Method (round robin is recommended).\nClick “Add“.\nUnder “Actions” column click on “More” then “Add VIP” to create a virtual IP for load balanced pool.\nName: Provide a name for VIP (recommended name is XX-VIP-purpose-Y).\nDescription\nSpecify a free IP, you can manually pick a IP from your subnet, or let DHCP provide one.\nProtocol Port, specify the port this VIP is listening on for incoming traffic.\nSelect the Protocol to match the one from step 2.\nSession Persistence if needed.\nConnection Limit if needed.\nClick “Add“.\nGo to “Members” tab and click on “+ Add Member” to the Pools created earlier.\nPool, select the Pool from drop down menu.\nCheck the boxes next to the virtual machine names that should be part of this pool.\nWeight if you desire to not evenly distribute load across backend servers.\nProtocol Port, is the port number that backend servers are listening on.\nGo to “Monitors” tab and click on “+ Add Monitor” to create a monitor to check if back-end services are up or down.\nType, select the type of monitor based on service being load-balanced.\nDelay, is how many seconds between every check.\nTimeout, is how many seconds before request times out.\nMax Retries, is number of failures before back-end is considered down.\nClick “Add“\nGo back to “Pools” tab and associate the newly created monitor to Pool.\nClick on “More” in “Actions” column.\nSelect “Associate Monitor“\nSelect a monitor template from drop down menu and click “Associate“\nYou have successfully created a load balanced environment that is now accessible from your cloud. To make this visible to public, see “Assign floating IP addresses” tutorial.",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "37",
+         "q": [
+            "WHAT IS YOUR GOOGLE CLOUD NAME"
+         ],
+         "a": "YellowCircleNetCloud",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "23",
+         "q": [
+            "WHAT IS THE HISTORY OF YELLOWCIRCLE"
+         ],
+         "a": "Just when our founder, Navneet Grewal thought that he was done answering all the questions regarding “SQL Injection” to his 11 year old son, his son asks “So where can I test my SQL injection skills”. Yes, the answer to this question prompted Navneet to create a small instance of Openstack cloud environment in their garage with just a few images and flavors, but the word spread and some of his son’s friends wanted to be creative with their computer ideas but no place to play. \n\nA small information technology infrastructure sandbox in the garage for Navneet’s son and his friends to build on-demand virtual data centers with routers, networks, switches, load-balancers, firewalls, and virtual servers. Best of all, there is no one to tell them — “You are going to mess up the family computer”\n\nFew months into this, demand outgrew the small setup in the garage, and Yellow Circle was started to make this learning experience open to everyone. Within two month of open beta-testing period, Yellow Circle had over 100 students from 40 different countries building virtual data-centers.",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      },
+      {
+         "qid": "31",
+         "q": [
+            "WHAT IS YELLOW CIRCLES PHONE NUMBER"
+         ],
+         "a": "(916) 581-0101",
+         "r": {
+            "title": "",
+            "imageUrl": ""
+         }
+      }
+   ]
+}
